@@ -21,8 +21,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   ctaText,
   onCtaClick,
   showOverlay = true,
-  height = 'min-h-[70vh]', // Default height, adjust as needed
-  isHomePage = false, // Default to false (for all pages except home)
+  height = 'min-h-[70vh]', 
 }) => {
   const sectionStyle = imageUrl
     ? { backgroundImage: `url(${imageUrl})` }

@@ -5,7 +5,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import Button from '../components/Button';
-import Gallery from '../components/Gallery';
 import childrenImage from '../assets/children.jpg';
 // Import Lucide icons
 import { 

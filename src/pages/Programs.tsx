@@ -217,7 +217,7 @@ const ProgramsPage: React.FC = () => {
             <div className="w-24 h-1 mx-auto mb-16 bg-gradient-to-r from-[#6a4c93] to-[#9d4edd]"></div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-              {programsData.map((program, index) => {
+              {programsData.map((program) => {
                 // Assign an icon based on the program id
                 let IconComponent: LucideIcon;
                 switch(program.id) {

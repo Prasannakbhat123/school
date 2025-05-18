@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Button from '../components/Button';
 import { MapPin, Phone, Mail, Clock, Send, ChevronDown, CheckCircle } from 'lucide-react';
-import childrenImage from '../assets/children.jpg';
 
 const ContactPage: React.FC = () => {
   const [formStatus, setFormStatus] = React.useState<'idle' | 'sending' | 'success' | 'error'>('idle');
